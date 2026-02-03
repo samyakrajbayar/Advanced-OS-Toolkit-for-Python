@@ -1,0 +1,17 @@
+# Start real-time monitoring
+python -m advanced_os_toolkit.cli monitor
+
+# Generate system report
+python -m advanced_os_toolkit.cli report --type full --output report.json
+
+# List processes
+python -m advanced_os_toolkit.cli processes --detailed
+
+# Find processes by name
+python -m advanced_os_toolkit.cli find --name python
+
+# Network scan
+python -m advanced_os_toolkit.cli network --scan localhost
+
+# File operations
+python -m advanced_os_toolkit.cli file --hash /path/to/file
